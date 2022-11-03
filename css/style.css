@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+
+body{
+	font-family:"Lato", serif;
+}
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main{
+	flex: 1 1 auto;
+	flex-grow: 1;
+}
+[class*="__container"] {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header, .footer{
+	background-color: rgb(150, 125, 173);
+	padding: 15px;
+}
+.title{
+	color: blue;
+	font-weight: 700;
+	font-size: 24px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+.point__block{
+	border: 5px solid purple;
+	box-shadow: 12px 12px 2px 1px rgba(175, 3, 175, 0.205);
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+.point__aticle{
+	border: 2px solid rgb(51, 0, 51);
+	background-color: rgb(184, 4, 184);
+	font-weight: 700;
+	font-size: 24px;
+	padding: 10px;
+	text-align: center;
+}
+.point__block--inline{
+	display: inline-block;
+}
+.point__aticle--inline{
+	display: inline-block;
+}
+.point__block--justify{
+	justify-content: center;
+}
+.point__block--justify-end{
+	justify-content: flex-end;
+}
+.point__block--justify-between{
+	justify-content: space-between;
+}
+.point__block--justify-around{
+	justify-content: space-around;
+}
+.point__block--justify-evenly{
+	justify-content: space-evenly;
+}
+.point__block--align-start{
+	align-items: flex-start;
+	height: 70px;
+}
+.point__block--align-end{
+	align-items: flex-end;
+	height: 70px;
+}
+.point__block--direction{
+	flex-direction:column;
+}
+.point__card {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -10px 30px -10px;
+
+}
+.point__colunm{
+	flex: 0 1 33.333%;
+	padding: 0px 10px;	
+}
+.point__item{
+	background-color: rgb(187, 136, 187);
+	padding: 15px;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	align-items: flex-start;
+}
+.point__image{
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+.point__image img{
+	max-width: 100%;
+	flex-grow: 0;
+
+}
+.point__text{
+	flex-grow: 1;
+	margin-bottom: 10px;
+
+}
+.point__button{
+	background-color: purple;
+	padding: 5px;
+	border-radius: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
